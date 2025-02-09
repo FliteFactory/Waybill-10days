@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Путевой 10 дней</title>
+</head>
+<body>
+    <table id="header">
+        <thead>
+            <tr>
+                <th rowspan="2" class="red">Расход</th>
+                <th colspan="2" class="blue">Одометр</th>
+                <th colspan="2" class="green">Топливо</th>
+            </tr>
+            <tr>
+                <th class="blue">Начало</th>
+                <th class="blue">Конец</th>
+                <th class="green">Начало</th>
+                <th class="green">Конец</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="red_light"><input type="number" id="fuelRate"></td>
+                <td class="blue_light"><input type="number" id="odomStart"></td>
+                <td id="odomEnd" class="blue_light"></td>
+                <td class="green_light"><input type="number" id="fuelStart"></td>
+                <td id="fuelEnd" class="green_light"></td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="table">
+        <thead>
+            <tr>
+                <th class="purple">День</th>
+                <th class="blue">Начало</th>
+                <th class="blue">Конец</th>
+                <th class="grey">Пробег</th>
+                <th class="red">Расход</th>
+                <th class="green">Остаток</th>
+                <th class="green yellow">Заправка</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="purple_light">1</td>
+                <td id="odomStart1" class="blue_light"></td>
+                <td id="odomEnd1" class="blue_light"></td>
+                <td class="grey_light"><input type="number" id="mileage1"></td>
+                <td id="consump1" class="red_light"></td>
+                <td id="balance1" class="green_light"></td>
+                <td class="yellow_light"><input type="number" id="refueling1"></td>
+            </tr>
+            <tr>
+                <td class="purple_light">2</td>
+                <td id="odomStart2" class="blue_light"></td>
+                <td id="odomEnd2" class="blue_light"></td>
+                <td class="grey_light"><input type="number" id="mileage2"></td>
+                <td id="consump2" class="red_light"></td>
+                <td id="balance2" class="green_light"></td>
+                <td class="yellow_light"><input type="number" id="refueling2"></td>
+            </tr>
+            <tr>
+                <td class="purple_light">3</td>
+                <td id="odomStart3" class="blue_light"></td>
+                <td id="odomEnd3" class="blue_light"></td>
+                <td class="grey_light"><input type="number" id="mileage3"></td>
+                <td id="consump3" class="red_light"></td>
+                <td id="balance3" class="green_light"></td>
+                <td class="yellow_light"><input type="number" id="refueling3"></td>
+            </tr>
+            <tr>
+                <td class="purple_light">4</td>
+                <td id="odomStart4" class="blue_light"></td>
+                <td id="odomEnd4" class="blue_light"></td>
+                <td class="grey_light"><input type="number" id="mileage4"></td>
+                <td id="consump4" class="red_light"></td>
+                <td id="balance4" class="green_light"></td>
+                <td class="yellow_light"><input type="number" id="refueling4"></td>
+            </tr>
+            <tr>
+                <td class="purple_light">5</td>
+                <td id="odomStart5" class="blue_light"></td>
+                <td id="odomEnd5" class="blue_light"></td>
+                <td class="grey_light"><input type="number" id="mileage5"></td>
+                <td id="consump5" class="red_light"></td>
+                <td id="balance5" class="green_light"></td>
+                <td class="yellow_light"><input type="number" id="refueling5"></td>
+            </tr>
+            <tr>
+                <td class="purple_light">6</td>
+                <td id="odomStart6" class="blue_light"></td>
+                <td id="odomEnd6" class="blue_light"></td>
+                <td class="grey_light"><input type="number" id="mileage6"></td>
+                <td id="consump6" class="red_light"></td>
+                <td id="balance6" class="green_light"></td>
+                <td class="yellow_light"><input type="number" id="refueling6"></td>
+            </tr>
+            <tr>
+                <td class="purple_light">7</td>
+                <td id="odomStart7" class="blue_light"></td>
+                <td id="odomEnd7" class="blue_light"></td>
+                <td class="grey_light"><input type="number" id="mileage7"></td>
+                <td id="consump7" class="red_light"></td>
+                <td id="balance7" class="green_light"></td>
+                <td class="yellow_light"><input type="number" id="refueling7"></td>
+            </tr>
+            <tr>
+                <td class="purple_light">8</td>
+                <td id="odomStart8" class="blue_light"></td>
+                <td id="odomEnd8" class="blue_light"></td>
+                <td class="grey_light"><input type="number" id="mileage8"></td>
+                <td id="consump8" class="red_light"></td>
+                <td id="balance8" class="green_light"></td>
+                <td class="yellow_light"><input type="number" id="refueling8"></td>
+            </tr>
+            <tr>
+                <td class="purple_light">9</td>
+                <td id="odomStart9" class="blue_light"></td>
+                <td id="odomEnd9" class="blue_light"></td>
+                <td class="grey_light"><input type="number" id="mileage9"></td>
+                <td id="consump9" class="red_light"></td>
+                <td id="balance9" class="green_light"></td>
+                <td class="yellow_light"><input type="number" id="refueling9"></td>
+            </tr>
+            <tr>
+                <td class="purple_light">10</td>
+                <td id="odomStart10" class="blue_light"></td>
+                <td id="odomEnd10" class="blue_light"></td>
+                <td class="grey_light"><input type="number" id="mileage10"></td>
+                <td id="consump10" class="red_light"></td>
+                <td id="balance10" class="green_light"></td>
+                <td class="yellow_light"><input type="number" id="refueling10"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="total">
+                <td colspan="3" id="total">Всего:</td>
+                <td id="totalMileage"></td>
+                <td id="totalConsump"></td>
+                <td></td>
+                <td id="totalRefueling"></td>
+            </tr>
+        </tfoot>
+    </table>
+    <button id="resetBtn">Сброс значений</button>
+    <script src="script.js"></script>
+</body>
+</html>

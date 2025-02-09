@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#header {
+    font-size: 18px;
+}
+
+td, th {
+    width: 16%;
+    text-align: center;
+    padding: 3px;
+    height: 2.3rem;
+}
+
+td {
+    font-size: 16px;
+    border: 1px solid #6e6e6e;
+}
+
+th {
+    font-style: italic;
+    color: white;
+    border: 1px solid #1f1f1f;
+}
+
+input {
+    width: 80px;
+    height: 1.7rem;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #afafaf;
+}
+
+#total {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.total > td {
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+
+#resetBtn {
+    display: block;
+    width: 160px;
+    height: 40px;
+    margin-left: 50px;
+    background-color: rgba(244, 244, 244, 0.7);
+    color: #ad0b0b;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.04rem;
+    word-spacing: 0.08rem;
+    text-transform: uppercase;
+    border-radius: 7px;
+    border: 1px solid rgb(164, 164, 164);
+    box-shadow: 0px 0px 4px 0px rgb(215, 140, 140);
+}
+
+.red {
+    background-color: rgba(192, 80, 77, 1);
+}
+
+.green {
+    background-color: rgba(33, 115, 77, 1);
+}
+
+.blue {
+    background-color: rgba(68, 121, 200, 1);
+}
+
+.grey {
+    background-color: rgba(119, 119, 119, 1);
+}
+
+.yellow {
+    color: rgba(255, 255, 139, 1);
+}
+
+.purple {
+    background-color: rgba(146, 91, 255, 1);
+}
+
+.red_light {
+    background-color: rgba(252, 228, 214, 0.7);
+}
+
+.green_light {
+    background-color: rgba(226, 239, 218, 0.6);
+}
+
+.blue_light {
+    background-color: rgba(227, 239, 249, 0.8);
+}
+
+.grey_light {
+    background-color: rgba(217, 217, 217, 0.4);
+}
+
+.yellow_light {
+    background-color: rgba(255, 255, 204, 0.7);
+}
+
+.purple_light {
+    background-color: rgba(230, 205, 255, 0.3);
+}
+
+.purple, .purple_light {
+    width: 4%;
+}
